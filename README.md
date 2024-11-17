@@ -130,5 +130,5 @@ Input: Number of test cases `t` and for each test case:
 Output: "YES" and the lexicographically smallest path for each test case, or "NO" if impossible
 
 For this section it consists of the pseudocode, prove of the algorithm, 
-computes the time complexity evaluate the time complexity using LLM tool and
+computes the time complexity, evaluate the time complexity using LLM tool and
 lastly prove the greedy algorithm is optimal.
