@@ -102,6 +102,25 @@ The final map provides a visual representation of Michelin-starred restaurants i
 - Cities marked with dots.
 - Price range levels represented through a color gradient.
 
+## 5. BONUS: Advanced Search Engine
+
+1. **Preprocessing**: 
+   - The data has been preprocessed to prepare it for transformation into a vector.
+   - Cosine similarity was computed based on the restaurant name, city, and cuisine type.
+
+2. **Aggregation and Normalization**:
+   - The computed similarity scores were aggregated.
+   - These scores were then normalized to a range between 0 and 1 to ensure consistent comparison.
+
+3. **Filtering**:
+   - A series of filters were applied to the results:
+     - **Price range**
+     - **Region**
+     - **Accepted credit cards**
+     - **Services and facilities** 
+   
+4. **Final Filtered Results**:
+   - The final filtered result set is returned.
 
 
 ## Algorithmic Question (AQ)
